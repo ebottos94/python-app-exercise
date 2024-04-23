@@ -3,6 +3,6 @@
 from src.Application.App import App
 
 
-app = App()
+app = App(storage='storage')
 
 app.api_service().run()
